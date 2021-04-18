@@ -1,0 +1,16 @@
+directories:
+  output: D:\PROJECTS\App builder\bitclout\bitclout\compiled\platforms\electron\build
+  buildResources: D:\PROJECTS\App builder\bitclout\bitclout\compiled\platforms\electron\build-res
+  app: D:\PROJECTS\App builder\bitclout\bitclout\compiled\platforms\electron\www
+appId: com.bitclout
+productName: bitcloutify
+electronVersion: 10.1.2
+electronDownload:
+  version: 10.1.2
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+  icon: installer.png
