@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-packageName="com.bitclout" android-versionCode="1" id="com.bitclout" ios-CFBundleVersion="1.0.0" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name short="bitcloutify">bitcloutify</name>
+    <description>Unofficial bitclout App Lite Version</description>
+    <author email="help@bitclout.com" href="https://www.bitclout.com/">Charlies</author>
+    <access origin="*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <content src="index.html" />
+    <icon src="res/icon.png" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <icon src="res/icons/electron/icon.png" target="app" />
+    <icon src="res/icons/electron/installer.png" target="installer" />
+    <splash src=".cdv\splashScreen.png" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="fullscreen" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="orientation" value="portrait" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="deployment-target" value="11.0" />
+    <preference name="target-device" value="universal" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="ShowTitle" value="false" />
+    <preference name="android-minSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="29" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="windows-target-version" value="10.0" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SplashScreenSpinnerColor" value="#000000" />
+    <preference name="SplashScreenWidth" value="170" />
+    <preference name="SplashScreenHeight" value="200" />
+    <preference name="SplashScreenBackgroundColor" value="#ffffff" />
+    <preference name="ElectronSettingsFilePath" value="electron_settings.json" />
+</widget>
